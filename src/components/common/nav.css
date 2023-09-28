@@ -1,0 +1,11 @@
+.leftnav {
+  position: relative;
+  height: calc(100vh - 64px);
+  width: 208px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  transform: translateX(0%) !important;
+  display: inline-block;
+  background-color: #2B51BA;
+}

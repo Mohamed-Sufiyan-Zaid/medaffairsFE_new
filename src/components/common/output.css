@@ -1,0 +1,84 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.header-top-content {
+    font-weight: lighter;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.edit-button-container {
+    margin-bottom: 10px;
+    padding-left: 820px;
+    align-items:left;
+}
+
+.edit-button {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.edit-save-button {
+    width: 138px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 23.981px;
+    background: #2B50BA;
+    color: #FFF;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+.edit-button.active {
+    padding-left: 820px;
+    color: blue;
+}
+
+.top-right {
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-right: auto;
+}
+
+.editable {
+    margin-left: 5px;
+    margin-right: 200px;
+    font-weight: 500;
+}
+
+.editable {
+    margin-left: 5px;
+    margin-right: 200px;
+    font-weight: 500;
+}
+
+.editable-active {
+    border: 1px solid #007bff;
+    background-color: #f0f8ff;
+    outline: none;
+}
+
+.export-btn {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.export-btn:hover {
+    background-color: #0056b3;
+}

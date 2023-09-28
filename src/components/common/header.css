@@ -1,0 +1,15 @@
+.header-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.brand-head {
+  background-color: #fff;
+}
+
+.brand-logo {
+  background-repeat: no-repeat;
+  background-position: center left;
+  width: 200px;
+  background-size: 100px 50px;
+}
